@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: rgba(17, 7, 31, 1);
+}
+header{
+    width: 100%;
+    height: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(26, 11, 46, 1);
+    font-size: 3em;
+}
