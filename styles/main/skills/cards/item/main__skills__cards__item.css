@@ -1,0 +1,19 @@
+@import url("./discription/main__skills__cards__item__discription.css");
+@import url("./image/main__skills__cards__item__image.css");
+.main__skills__cards__item {
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  width: max-content;
+  background: linear-gradient(
+    125deg,
+    rgba(19, 4, 40, 1) 7%,
+    rgba(37, 16, 67, 1) 34%,
+    rgba(56, 18, 109, 1) 57%,
+    rgba(38, 16, 69, 1) 85%,
+    rgba(25, 6, 52, 1) 100%
+  );
+  border-radius: 25px;
+  padding: 50px;
+  padding-right: 200px;
+}

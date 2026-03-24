@@ -1,0 +1,14 @@
+@import url("./container/header__container.css");
+header{
+    width: 100%;
+    height: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(26, 11, 46, 1);
+    font-size: 3em;
+}
+
+
+

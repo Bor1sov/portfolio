@@ -1,0 +1,7 @@
+.header__container__navigation__item{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    align-self:center;
+}

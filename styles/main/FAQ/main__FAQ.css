@@ -1,0 +1,12 @@
+@import url("./title/main__FAQ__title.css");
+@import url("./subtitle/main__FAQ__subtitle.css");
+@import url("./discription/main__FAQ__discription.css");
+.main__FAQ{
+    position: relative;
+    display: flex;
+    padding-left: 387px;
+    flex-direction: column;
+    width: 65%;
+}
+
+

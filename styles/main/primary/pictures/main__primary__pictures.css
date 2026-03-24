@@ -1,0 +1,11 @@
+@import url("./arrow/main__primary__pictures__arrow.css");
+@import url("./avatar/main__primary__pictures__avatar.css");
+@import url("./garient-box/main__primary__pictures__garient-box.css");
+
+.main__primary__pictures{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 481px;
+}

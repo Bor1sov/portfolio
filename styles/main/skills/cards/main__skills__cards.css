@@ -1,0 +1,7 @@
+@import url("./item/main__skills__cards__item.css");
+.main__skills__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-top: 44px;
+}

@@ -1,0 +1,19 @@
+@import url("../features/purple-text.css");
+@import url("./primary/main__primary.css");
+@import url("./FAQ/main__FAQ.css");
+@import url("./skills/main__skills.css");
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+

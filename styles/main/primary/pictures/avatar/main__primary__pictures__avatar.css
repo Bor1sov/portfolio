@@ -1,0 +1,8 @@
+.main__primary__pictures__avatar{
+    position: absolute;
+    width: 258px;
+    height: 259px;
+    bottom: 110px;
+    left: 20px;
+    z-index: 99;
+}

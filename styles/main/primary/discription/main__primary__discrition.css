@@ -1,0 +1,12 @@
+@import url("./eliple/main__primary__discription__elipse.css");
+@import url("./hi-text/main__primary__discrition__hi-text.css");
+@import url("./low-text/main__primary__discription__low-text.css");
+@import url("./main-text/main__primary__discription__main-text.css");
+@import url("./midle-text/main__primary__discription__midle-text.css");
+
+.main__primary__discrition{
+    position: relative;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
