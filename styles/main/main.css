@@ -2,6 +2,7 @@
 @import url("./primary/main__primary.css");
 @import url("./FAQ/main__FAQ.css");
 @import url("./skills/main__skills.css");
+@import url("./vectors/main__vectors.css");
 .main{
     display: flex;
     flex-direction: column;

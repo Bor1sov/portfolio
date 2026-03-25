@@ -1,0 +1,15 @@
+.main__vectors__rotate-logo{
+    position: absolute;
+    top:65%;
+    left: 45%;
+    z-index: 99;
+    animation: rotation 20s linear infinite;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
