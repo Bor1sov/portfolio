@@ -3,6 +3,7 @@
 @import url("./FAQ/main__FAQ.css");
 @import url("./skills/main__skills.css");
 @import url("./vectors/main__vectors.css");
+@import url("./examples/main__examples.css");
 .main{
     display: flex;
     flex-direction: column;
