@@ -1,0 +1,9 @@
+@import url('./clicks-container/main__examples__item__description__clicks-container.css');
+@import url('./more-text/main__examples__item__description__more-text.css');
+@import url('./subtitle/main__examples__item__description__subtitle.css');
+@import url('./title/main__examples__item__description__title.css');
+.main__examples__item__description{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}

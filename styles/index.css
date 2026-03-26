@@ -3,8 +3,9 @@
 @import url("./header/header.css");
 @import url("./main/main.css");
 @import url("./features/links.css");
+@import url("./features/gradient.css");
 *{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0;
     padding: 0;
     color: white;

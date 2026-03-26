@@ -1,4 +1,6 @@
+@import url('./item/main__examples__item.css');
 .main__examples{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -8,43 +10,10 @@
     margin-top: 100px;
 
 }
-.main__examples__item{
-    width: 70%;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 20px;
-    padding: 20px;
-    border-radius: 10px;
-}
-.main__examples__item__description{
-    display: flex;
-    flex-direction: column;
-}
-.main__examples__item__prewiev{
-    width: 568px;
-    height: 354px;
-    object-fit: cover;
-}
-.main__examples__item__description__title{
-  position: relative;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-}
-.main__examples__item__description__subtitle{
-  position: relative;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 34px;
-}
-.main__examples__item__description__more-text{
-    position: relative;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    margin-top: 56px;
-    padding: 34px;
-}
+
+
+
+
+
+
+

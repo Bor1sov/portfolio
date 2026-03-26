@@ -1,0 +1,8 @@
+@import url('./item/main__examples__item__description__clicks-container__item.css');
+.main__examples__item__description__clicks-container{
+    position: absolute;
+    top:320px;
+    left: 50px;
+    display: flex;
+    gap: 20px;
+}

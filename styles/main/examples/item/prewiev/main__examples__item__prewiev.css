@@ -1,0 +1,4 @@
+.main__examples__item__prewiev{
+    display: block;
+    object-fit: cover;
+}
