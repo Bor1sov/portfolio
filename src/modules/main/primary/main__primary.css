@@ -1,9 +1,17 @@
 @import url("./pictures/main__primary__pictures.css");
 @import url("./discription/main__primary__discrition.css");
+
+
 .main__primary{
     margin-top: 135px;
     padding-left: 295px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .main__primary{
+        padding-left: 0px;
+    }
 }

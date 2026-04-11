@@ -5,3 +5,13 @@
   gap: 50px;
   margin-top: 44px;
 }
+
+@media screen and (max-width: 1200px) {
+.main__skills__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    margin: 0 auto;
+    margin-top: 44px;
+}
+}
