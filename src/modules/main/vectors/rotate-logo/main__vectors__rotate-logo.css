@@ -1,15 +1,35 @@
-.main__vectors__rotate-logo{
-    position: absolute;
-    top:65%;
-    left: 45%;
-    z-index: 99;
-    animation: rotation 20s linear infinite;
+.main__vectors__rotate-logo {
+  position: absolute;
+  top: 65%;
+  left: 45%;
+  z-index: 99;
+  animation: rotation 20s linear infinite;
 }
 @keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main__vectors__rotate-logo {
+    position: absolute;
+    top: 65%;
+    left: 43%;
+    z-index: 99;
+    animation: rotation 20s linear infinite;
+  }
+}
+@media screen and (max-width: 930px) {
+  .main__vectors__rotate-logo {
+    position: absolute;
+    top: 69%;
+    left: 45.3%;
+    width: 8%;
+    z-index: 99;
+    animation: rotation 20s linear infinite;
+  }
 }

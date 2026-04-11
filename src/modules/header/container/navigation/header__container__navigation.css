@@ -1,7 +1,15 @@
 @import url("./item/header__container__navigation__item.css");
-.header__container__navigation{
+.header__container__navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-left: 50px;
+}
+@media screen and (max-width: 930px) {
+  .header__container__navigation {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    margin-left: 50px;
+    margin-left: 0px;
+  }
 }
