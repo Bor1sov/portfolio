@@ -1,3 +1,5 @@
+import FooterSocialIcon from "./social-icon/footer__social-icon";
+
 export default function Footer() {
   return (
     <footer className="footer">
@@ -11,29 +13,7 @@ export default function Footer() {
         <br />
         nd.5nd@yandex.ru
       </p>
-      <div className="footer__social-icon">
-        <a href="#" target="_blank" className="footer__social-icon__item">
-          <img
-            src="./assets/ig.png"
-            alt="instagram"
-            className="footer__social-icon__item__img"
-          />
-        </a>
-        <a href="#" target="_blank" className="footer__social-icon__item">
-          <img
-            src="./assets/ball.png"
-            alt="ball"
-            className="footer__social-icon__item__img"
-          />
-        </a>
-        <a href="#" target="_blank" className="footer__social-icon__item">
-          <img
-            src="./assets/google.png"
-            alt="google"
-            className="footer__social-icon__item__img"
-          />
-        </a>
-      </div>
+      <FooterSocialIcon />
     </footer>
   );
 }
